@@ -24,15 +24,15 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
         name = "Татьяна Сергеевна Перепечко (Воробьева)"
-        tagline = "Стоматолог-хирург, пародонтолог"
-        avatar = "profile.png"
+        tagline = "Стоматолог-хирург детский и взрослый, пародонтолог"
+        avatar = "profile.jpg"
 
     # Contact section
     [params.contact]
@@ -51,21 +51,15 @@ disable404 = true
         title = "+1234567890"
 
         [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
-
-        [[params.contact.list]]
         class = "instagram"
         icon = "fa-instagram"
-        url = "instagram.com/stomatolog-pts"
+        url = "//instagram.com/stomatolog-pts"
         title = "stomatolog-pts"
 
 
     # Education section
     [params.education]
-        enable = true
+        enable = false
         title = "Education"
 
         [[params.education.list]]
@@ -80,7 +74,7 @@ disable404 = true
 
     # Languages section
     [params.language]
-        enable = true
+        enable = false
         title = "Languages"
 
         [[params.language.list]]
@@ -115,14 +109,14 @@ disable404 = true
 
     # Summary section
     [params.summary]
-        enable = true
+        enable = false
         icon = "fa-user"
         title = "Career Profile"
         summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
 
     # Experiences section
     [params.experiences]
-        enable = true
+        enable = false
         icon = "fa-briefcase"
         title = "Experiences"
 
@@ -146,7 +140,7 @@ disable404 = true
 
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
@@ -178,7 +172,7 @@ disable404 = true
 
     # Skills section
     [params.skills]
-        enable = true
+        enable = false
         icon = "fa-rocket"
         title = "Skills & Proficiency"
 
