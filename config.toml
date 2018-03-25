@@ -91,7 +91,7 @@ disable404 = true
 
     # Interests section
     [params.interests]
-        enable = true
+        enable = false
         title = "Interests"
 
         [[params.interests.list]]
